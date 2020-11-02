@@ -1,0 +1,22 @@
+.leftbox {
+    float:left;
+    width:50%;
+    height:280px;
+}
+
+.rightbox {
+    float:left;
+    width:50%;
+    height:280px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+h1 {
+    color:green;
+    text-align:center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zemoga Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="profile.js"></script>
+    </head>
+
+    <body>
+        <div class="center">
+            <h2 id="twitterprofile"></h2>
+            <div id="title" ></div>
+            <div id="description"></div>
+            <div id="imagedData"></div>
+            <div id="twitter"></div>
+            <h2>Change your profile</h2>
+            <form action="">
+                <label for="ftitle">Name</label><br>
+                <input type="text" id="ftitle" name="title"><br><br>
+                <label for="description">Job Info:</label><br>
+                <textarea rows="5" cols="30" id="fdescription" name="description"></textarea/><br><br>
+                <label for="fimageUrl">Image Url:</label><br>
+                <input type="text" id="fimageUrl" name="imageUrl" size="70"><br><br>
+                <label for="ftwitterUserName">Twitter User Name:</label><br>
+                @<input type="text" id="ftwitterUserName" name="twitterUserName"><br><br>
+                <input type="submit" value="send" id="send">
+            </form>
+        </div>
+    </body>
+
+</html>
