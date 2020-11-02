@@ -1,5 +1,5 @@
 # portfolio
-project for portfolio
+project for portfolio the manual.pdf is more specific check it please.
 
 just clone the repository and import in your ide open in intellj or import as maven project in eclipse.
 
